@@ -121,9 +121,9 @@ def play
     puts "Cat's Game!"
   end  
   if won? && winner == "X"
-    puts "Player X Wins!"
+    puts "Congratulations X!"
   else 
-    puts "Player O Wins!"
+    puts "Congratulations O!"
 end 
 end
 
