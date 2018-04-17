@@ -118,12 +118,12 @@ def play
     turn 
   end 
   if draw?
-    return "Cat's Game!"
+    puts "Cat's Game!"
   end  
   if won? && winner == "X"
-    return "Player X Wins!"
+    puts "Player X Wins!"
   else 
-    return "Player O Wins!"
+    puts "Player O Wins!"
 end 
 end
 
