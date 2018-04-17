@@ -122,11 +122,6 @@ def play
   else 
     puts "Congratulations #{winner}!"
   end  
-  if won? && winner == "X"
-    puts "Congratulations X!"
-  else 
-    puts "Congratulations O!"
-end 
 end
 
 end 
