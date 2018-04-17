@@ -119,6 +119,8 @@ def play
   end 
   if draw?
     puts "Cat's Game!"
+  else 
+    puts "Congratulations #{winner}!"
   end  
   if won? && winner == "X"
     puts "Congratulations X!"
