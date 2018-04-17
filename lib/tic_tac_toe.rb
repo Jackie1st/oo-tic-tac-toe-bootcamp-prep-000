@@ -119,8 +119,8 @@ def play
   end 
   if draw?
     return "Cat's Game!"
-  else 
-  if winner == "X"
+  end  
+  if won? && winner == "X"
     return "Player X Wins!"
   else 
     return "Player O Wins!"
