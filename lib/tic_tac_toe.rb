@@ -117,14 +117,7 @@ def play
   until over?
     turn 
   end 
-  if draw?
-    return "Cat's Game!"
-  else 
-  if won? && winner == "X"
-    return "Player X Wins!"
-  else 
-    return "Player O Wins!"
-end 
+ 
 end
 
 end 
